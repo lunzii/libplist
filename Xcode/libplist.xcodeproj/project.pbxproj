@@ -378,6 +378,7 @@
 		C847BE191A7516B600271179 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = "";
@@ -385,6 +386,7 @@
 					/usr/include/libxml2/,
 					../include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -392,6 +394,7 @@
 		C847BE1A1A7516B600271179 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = "";
@@ -399,6 +402,7 @@
 					/usr/include/libxml2/,
 					../include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
