@@ -1,4 +1,4 @@
-/* config.h.  Manual menerated for Xcode.  */
+/* config.h.  Manual generated for Xcode.  */
 
 /* Define if building universal (internal helper macro) */
 /* #undef AC_APPLE_UNIVERSAL_BUILD */
