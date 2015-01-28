@@ -49,7 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C847BE141A7516B600271179 /* libplist.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libplist.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C847BE141A7516B600271179 /* libplist.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libplist.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C847BE1B1A7516EC00271179 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		C847BE1E1A7516FC00271179 /* cnary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cnary.c; sourceTree = "<group>"; };
 		C847BE1F1A7516FC00271179 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		C847BE151A7516B600271179 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C847BE141A7516B600271179 /* libplist.dylib */,
+				C847BE141A7516B600271179 /* libplist.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -231,7 +231,7 @@
 			);
 			name = libplist;
 			productName = libplist;
-			productReference = C847BE141A7516B600271179 /* libplist.dylib */;
+			productReference = C847BE141A7516B600271179 /* libplist.a */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -381,13 +381,16 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = a;
 				EXECUTABLE_PREFIX = "";
 				HEADER_SEARCH_PATHS = (
 					/usr/include/libxml2/,
 					../include/,
 				);
-				INSTALL_PATH = "@executable_path";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = debugging;
 			};
 			name = Debug;
 		};
@@ -397,13 +400,16 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = a;
 				EXECUTABLE_PREFIX = "";
 				HEADER_SEARCH_PATHS = (
 					/usr/include/libxml2/,
 					../include/,
 				);
-				INSTALL_PATH = "@executable_path";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = debugging;
 			};
 			name = Release;
 		};
