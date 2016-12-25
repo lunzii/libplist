@@ -44,6 +44,7 @@
 		C847BE691A7516FC00271179 /* Structure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C847BE451A7516FC00271179 /* Structure.cpp */; };
 		C847BE6A1A7516FC00271179 /* Uid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C847BE461A7516FC00271179 /* Uid.cpp */; };
 		C847BE6B1A7516FC00271179 /* xplist.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BE471A7516FC00271179 /* xplist.c */; };
+		C8A97D791E0FABFF0013886F /* time64.c in Sources */ = {isa = PBXBuildFile; fileRef = C8A97D781E0FABFF0013886F /* time64.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 		C847BE451A7516FC00271179 /* Structure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Structure.cpp; sourceTree = "<group>"; };
 		C847BE461A7516FC00271179 /* Uid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Uid.cpp; sourceTree = "<group>"; };
 		C847BE471A7516FC00271179 /* xplist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xplist.c; sourceTree = "<group>"; };
+		C8A97D781E0FABFF0013886F /* time64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = time64.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 		C847BE2E1A7516FC00271179 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				C8A97D781E0FABFF0013886F /* time64.c */,
 				C847BE2F1A7516FC00271179 /* Array.cpp */,
 				C847BE301A7516FC00271179 /* base64.c */,
 				C847BE311A7516FC00271179 /* base64.h */,
@@ -276,6 +279,7 @@
 				C847BE671A7516FC00271179 /* Real.cpp in Sources */,
 				C847BE571A7516FC00271179 /* Boolean.cpp in Sources */,
 				C847BE651A7516FC00271179 /* ptrarray.c in Sources */,
+				C8A97D791E0FABFF0013886F /* time64.c in Sources */,
 				C847BE521A7516FC00271179 /* node_iterator.c in Sources */,
 				C847BE5B1A7516FC00271179 /* Data.cpp in Sources */,
 				C847BE6B1A7516FC00271179 /* xplist.c in Sources */,
